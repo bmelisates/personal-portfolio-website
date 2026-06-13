@@ -36,16 +36,16 @@
         "image": "pizza-website",
         "description": "Acıkan yazılımcılar için geliştirilmiş, dinamik malzeme seçimi ve fiyat hesaplaması yapabilen, detaylı form validasyonlarına sahip işlevsel bir pizza sipariş uygulaması.",
         "technologies": ["React", "Bootstrap", "Axios", "Tailwind CSS"],
-        "github": "https://github.com",
-        "viewSite": "https://github.com/bmelisates/pizza-website-spa"
+        "github": "https://github.com/bmelisates/pizza-website-spa",
+        "viewSite": "https://pizza-website-spa.vercel.app/"
       },
       {
         "title": "Kişisel Portfolyo Websitesi",
         "image": "kisisel-website",
         "description": "Figma tasarımlarına birebir sadık kalınarak kurulan, Context API ile dil ve tema yönetiminin yapıldığı, tamamen responsive kişisel portfolyo web sitesi.",
         "technologies": ["React", "Context API", "Tailwind CSS"],
-        "github": "https://github.com",
-        "viewSite": "https://google.com"
+        "github": "https://github.com/bmelisates/personal-portfolio-website",
+        "viewSite": "https://personal-portfolio-website-1dy1.vercel.app/"
       }
     ]
   },

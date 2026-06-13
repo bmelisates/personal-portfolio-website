@@ -37,15 +37,15 @@
         "description": "A functional pizza ordering web application developed for hungry developers, featuring dynamic ingredient selection, real-time price calculation, and rigorous form validation.",
         "technologies": ["React", "Bootstrap", "Axios", "Tailwind CSS"],
         "github": "https://github.com/bmelisates/pizza-website-spa",
-        "viewSite": "https://google.com"
+        "viewSite": "https://pizza-website-spa.vercel.app/"
       },
       {
         "title": "Personal Portfolio Website",
         "image": "kisisel-website",
         "description": "A fully responsive personal portfolio website built meticulously according to Figma designs, featuring centralized language and theme management via Context API.",
         "technologies": ["React", "Context API", "Tailwind CSS"],
-        "github": "https://github.com",
-        "viewSite": "https://google.com"
+        "github": "https://github.com/bmelisates/personal-portfolio-website",
+        "viewSite": "https://personal-portfolio-website-1dy1.vercel.app/"
       }
     ]
   },
