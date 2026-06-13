@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* Inter fontunu 'sans' olarak tanımladık */
+  --font-sans: "Inter", sans-serif;
+  --font-playfair: "Playfair Display", serif;
+}
+
+@layer base {
+  body {
+    @apply font-sans; /* Artık tüm sayfa Inter kullanacak */
+  }
+}
+
+@layer components {
+  button {
+    @apply cursor-pointer;
+  }
+}
+
+/* Figma'ya özel genel font ve pürüzsüz geçiş ayarları */
+body {
+  margin: 0;
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Tasarımdaki o el yazısı veya marker çizgisi efekti için özel sınıf */
+.highlighter-pink {
+  background: linear-gradient(180deg, transparent 65%, #ea2678 65%);
+}
+
+.highlighter-blue {
+  background: linear-gradient(180deg, transparent 65%, #ddeefe 65%);
+}
+
+/* Koyu modda çizgilerin renk değiştirmesi için */
+.dark .highlighter-blue {
+  background: linear-gradient(180deg, transparent 65%, #2d4356 65%);
+}

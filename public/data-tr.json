@@ -1,0 +1,60 @@
+{
+  "hero": {
+    "greeting": "Merhaba",
+    "title": "Ben Melis. Full-stack geliştiriciyim. Sağlam ve ölçeklenebilir frontend ürünleri hazırlayabiliyorum. Tanışalım!",
+    "description": "Şu anda *UX, UI ve Web Tasarımı* projeleri üzerine *freelance* olarak çalışıyorum. Ekibinizle güçlerimizi birleştirmekten mutluluk duyarım -> ",
+    "buttonText": "Bana Ulaşın"
+  },
+  "skills": {
+    "title": "Yetenekler",
+    "list": [
+      { "name": "JAVASCRIPT", "iconName": "javascript" },
+      { "name": "REACT", "iconName": "react" },
+      { "name": "REDUX", "iconName": "redux" },
+      { "name": "NODE.JS", "iconName": "nodejs" },
+      { "name": "VS CODE", "iconName": "vscode" },
+      { "name": "FIGMA", "iconName": "figma" }
+    ]
+  },
+  "profile": {
+    "title": "Profil",
+    "infoTitle": "Profil Bilgileri",
+    "aboutTitle": "Hakkımda",
+    "aboutText": "Hukuk geçmişinden gelen, analitik düşünme ve problem çözme becerilerini yazılım dünyasına aktaran bir tam yığın (Full-stack) geliştiriciyim. Modern web teknolojileriyle dinamik, kullanıcı dostu ve ölçeklenebilir uygulamalar üretmeyi seviyorum. Sürekli öğrenme felsefesiyle kendimi her gün geliştiriyorum.",
+    "details": {
+      "Doğum Tarihi": "08.08.1995",
+      "İkamet Şehri": "İzmir",
+      "Eğitim Durumu": "İstanbul Üniversitesi Hukuk Fakültesi",
+      "Tercih Ettiği Rol": "Full-stack Developer"
+    }
+  },
+  "projects": {
+    "title": "Projeler",
+    "list": [
+      {
+        "title": "Teknolojik Yemekler",
+        "image": "pizza-website",
+        "description": "Acıkan yazılımcılar için geliştirilmiş, dinamik malzeme seçimi ve fiyat hesaplaması yapabilen, detaylı form validasyonlarına sahip işlevsel bir pizza sipariş uygulaması.",
+        "technologies": ["React", "Bootstrap", "Axios", "Tailwind CSS"],
+        "github": "https://github.com",
+        "viewSite": "https://github.com/bmelisates/pizza-website-spa"
+      },
+      {
+        "title": "Kişisel Portfolyo Websitesi",
+        "image": "kisisel-website",
+        "description": "Figma tasarımlarına birebir sadık kalınarak kurulan, Context API ile dil ve tema yönetiminin yapıldığı, tamamen responsive kişisel portfolyo web sitesi.",
+        "technologies": ["React", "Context API", "Tailwind CSS"],
+        "github": "https://github.com",
+        "viewSite": "https://google.com"
+      }
+    ]
+  },
+  "footer": {
+    "title": "Bir sonraki projenizde birlikte çalışalım!",
+    "text": "Tekliflere ve iş birliklerine açığım. Yeni bir proje geliştirmek ya da sadece tanışmak isterseniz bana yazabilirsiniz.",
+    "links": {
+      "Github": "https://github.com",
+      "Linkedin": "https://linkedin.com"
+    }
+  }
+}

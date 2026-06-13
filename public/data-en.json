@@ -1,0 +1,60 @@
+{
+  "hero": {
+    "greeting": "Hi",
+    "title": "I'm Melis. I'm a Full-stack Developer. I can craft solid and scalable frontend products. Let’s meet!",
+    "description": "Currently *Freelancing* for *UX, UI, & Web Design Project*. Invite me to join your team ->  ",
+    "buttonText": "Contact Me"
+  },
+  "skills": {
+    "title": "Skills",
+    "list": [
+      { "name": "JAVASCRIPT", "iconName": "javascript" },
+      { "name": "REACT", "iconName": "react" },
+      { "name": "REDUX", "iconName": "redux" },
+      { "name": "NODE.JS", "iconName": "nodejs" },
+      { "name": "VS CODE", "iconName": "vscode" },
+      { "name": "FIGMA", "iconName": "figma" }
+    ]
+  },
+  "profile": {
+    "title": "Profile",
+    "infoTitle": "Basic Information",
+    "aboutTitle": "About Me",
+    "aboutText": "Coming from a legal background, I am a Full-stack Developer who transfers analytical thinking and problem-solving skills into the software world. I enjoy building dynamic, user-friendly, and scalable applications using modern web technologies. I improve myself every day with a philosophy of continuous learning.",
+    "details": {
+      "Birthday": "08.08.1995",
+      "City": "Izmir",
+      "Education": "Istanbul University, Faculty of Law",
+      "Preferred Role": "Full-stack Developer"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "list": [
+      {
+        "title": "Pizza Ordering App",
+        "image": "pizza-website",
+        "description": "A functional pizza ordering web application developed for hungry developers, featuring dynamic ingredient selection, real-time price calculation, and rigorous form validation.",
+        "technologies": ["React", "Bootstrap", "Axios", "Tailwind CSS"],
+        "github": "https://github.com/bmelisates/pizza-website-spa",
+        "viewSite": "https://google.com"
+      },
+      {
+        "title": "Personal Portfolio Website",
+        "image": "kisisel-website",
+        "description": "A fully responsive personal portfolio website built meticulously according to Figma designs, featuring centralized language and theme management via Context API.",
+        "technologies": ["React", "Context API", "Tailwind CSS"],
+        "github": "https://github.com",
+        "viewSite": "https://google.com"
+      }
+    ]
+  },
+  "footer": {
+    "title": "Let's work together on your next project!",
+    "text": "I am open to proposals and collaborations. If you want to develop a new project or just say hi, feel free to write me.",
+    "links": {
+      "Github": "https://github.com",
+      "Linkedin": "https://linkedin.com"
+    }
+  }
+}
