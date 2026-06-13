@@ -21,7 +21,7 @@ export default function Skills() {
   const { title, list } = siteData.skills;
 
   return (
-    <section className=" relative w-full bg-white dark:bg-[#1A1A1A] overflow-hidden">
+    <section className=" relative w-full bg-white dark:bg-[#121212] overflow-hidden">
       {/* GRİ YARIM ELİPS- sol */}
       <div
         className="absolute bg-[#525252] hidden xl:block"
