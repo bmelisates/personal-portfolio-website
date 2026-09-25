@@ -64,7 +64,8 @@ export default function Hero() {
           {/* Sosyal İkonlar */}
           <div className="flex gap-5 text-2xl mb-8 text-[#1F2937] dark:text-white">
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/melis-ate%C5%9F-4a187a415/"
+              aria-label="LinkedIn"
               target="_blank"
               rel="noreferrer"
               className="hover:text-[#EA2678] transition-colors"
@@ -72,7 +73,8 @@ export default function Hero() {
               <FaLinkedinIn />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/bmelisates"
+              aria-label="GitHub"
               target="_blank"
               rel="noreferrer"
               className="hover:text-[#EA2678] transition-colors"
